@@ -6,46 +6,55 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
    <style>
+      .container{
+         height: 70vh;
+         
+         
+      }
       .a{
          width: 20%;
-         height: 100vh;
-         background: blue;
+         height: 100%;
+         background: url(img/ball3.png) no-repeat left top,
+                     url(img/ball3.png) no-repeat left bottom;
+         background-color: blue;
          float: left;
-         background: url(img/ball3.png);
- 
+         overflow: hidden;
       }
       .b{
          width: 200px;
-         height: 100vh;
-         background: red;
+         height: 100%;
+         background: url(img/ball3.png) no-repeat right bottom, 
+                     url(img/ball3.png) no-repeat right top;
+         background-color: red;
          float: right;
-
       }
       .c{
-         background: yellow;
-         height: 100vh;
+         height: 100%;
+         overflow: hidden;
       }
+   
    </style>
 </head>
 <body>
+   <div class="container">
 
-   <div class="a"> width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% 
-      width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20%
-      width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20%
-      width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20%
-   </div>
-   <div class="b">width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
-      width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
-      width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
-      width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
-   </div>
-   <div class="c"> content content content content content content content content content content content 
-      content content content content content content content content content content content 
-      content content content content content content content content content content content 
-      content content content content content content content content content content content 
-      content content content content content content content content content content content 
+      <div class="a"> width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% 
+         width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20%
+        
+      </div>
 
+      <div class="b">width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
+         width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
+         width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
+         width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
+      </div>
+
+      <div class="c"> content content content content content content content content content content content 
+         content content content content content content content content content content content 
+         content content content content content content content content content content content 
+         content content content content content content content content content content content 
+         content content content content content content content content content content content 
+      </div>
    </div>
-   
 </body>
 </html>

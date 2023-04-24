@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   .stars{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline;
+      position: absolute;
+   }
+   .stars li{
+      width: 75px;
+      height: 78px;
+      float: right;
+      background: url(img/star0.png) ;
+      
+   }
+   li:hover,
+   li:hover ~ li{
+      content: url(img/star1.png);
+   }
+   div{
+      height: 78px;
+      /*margin-right: 500px; /* Сначала марджины я использовал просто для того,чтобы контент был по центру,а не справа))
+                           места хватит на еще 5 звездочек остальные уйдут на новую строку( 
+                           А спустя трехминутного просмотра на звездочки вспомнил,что раньше слышал про 
+                           свойство position и оно всё стало великолепно)*/
+   }
+</style>
+<body>
+   <div>
+      <ol class="stars">
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+      </ol>
+   </div>
+</body>
+</html>

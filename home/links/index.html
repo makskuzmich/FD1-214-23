@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      .first>ul>li{
+         border-right: 3px solid red;
+         display: inline;
+         padding: 0px 10px;
+         
+      }
+      .two>a:nth-child(-n+5){
+         border-right: 3px solid red;
+         padding: 0px 10px;
+      }
+      li>a:hover{
+         color: red;
+      }
+      .two>a:hover{
+         color: red;
+      }
+      .three>span>a{
+         background: url(1.png) right top repeat-y;
+         background-size: 25px;
+         padding: 0px 10px;
+      }
+      .three>span>a:hover{
+         color: red;
+      }
+      .for>a::after{
+         content: "|" ;
+         color: red;
+         font-weight: bold;
+         font-size: 20px;
+      
+      }
+      .for>a:hover{
+         color: red;
+      }
+   </style>
+</head>
+<body>
+   <div class="first">
+      <ul>
+         <li><a href="av.by">первая ссылка</a></li>
+         <li><a href="vk.com">вторая ссылка</a></li>
+         <li><a href="hello.by">третья ссылка</a></li>
+         <li><a href="onliner.by">четвертая ссылка</a></li>
+         <li><a href="apple.com">пятая ссылка</a></li>
+      </ul>
+   </div>
+
+   <div class="two">
+      <a href="kufar.by">первая ссылка</a>
+      <a href="kufar.by">вторая ссылка</a>
+      <a href="kufar.by">третья ссылка</a>
+      <a href="kufar.by">четвертая ссылка</a>
+      <a href="kufar.by">пятая ссылка</a>
+   </div>
+   <br>
+   <div class="three">
+         <span><a href="kufar.by">первая ссылка</a></span>
+         <span><a href="kufar.by">вторая ссылка</a></span>
+         <span><a href="kufar.by">третья ссылка</a></span>
+         <span><a href="kufar.by">четвертая ссылка</a></span>
+         <span><a href="kufar.by">пятая ссылка</a></span>
+   </div>
+   <br>
+   <div class="for">
+      <a href="kufar.by">первая ссылка</a>
+      <a href="kufar.by">вторая ссылка</a>
+      <a href="kufar.by">третья ссылка</a>
+      <a href="kufar.by">четвертая ссылка</a>
+      <a href="kufar.by">пятая ссылка</a>
+   </div>
+   
+</body>
+</html>
