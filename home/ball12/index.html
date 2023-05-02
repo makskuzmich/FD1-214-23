@@ -7,54 +7,60 @@
    <title>Document</title>
    <style>
       .container{
-         height: 70vh;
-         
-         
+         height: 90vh;
+         background: url(img/1.png) 20% 0% no-repeat,
+                     url(img/1.png) 20% 100% no-repeat,
+                     url(img/rightball.png) 100% 0% no-repeat,
+                     url(img/rightball.png) 100% 100% no-repeat,
+                     url(img/ball3.png) no-repeat, 
+                     url(img/ball3.png) left bottom no-repeat,
+                     url(img/2.png) 20% repeat-y;
       }
       .a{
          width: 20%;
          height: 100%;
-         background: url(img/ball3.png) no-repeat left top,
-                     url(img/ball3.png) no-repeat left bottom;
-         background-color: blue;
          float: left;
-         overflow: hidden;
+         
       }
       .b{
-         width: 200px;
+         width: 201px;
          height: 100%;
-         background: url(img/ball3.png) no-repeat right bottom, 
-                     url(img/ball3.png) no-repeat right top;
-         background-color: red;
          float: right;
+         overflow: hidden;
+         background: url(img/ball3.png) right top no-repeat,
+                     url(img/ball3.png) right bottom no-repeat,
+                     url(img/ball3.png) left top no-repeat,
+                     url(img/ball3.png) left bottom no-repeat,
+                     url(img/red.png) right top repeat-y;
       }
       .c{
-         height: 100%;
-         overflow: hidden;
+        overflow: hidden;
+        height: 100%;
       }
+      .clear{
+         clear: both;
+      }
+     
    
    </style>
 </head>
 <body>
    <div class="container">
+         <div class="a"> width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% 
+            width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20%
+         </div>
 
-      <div class="a"> width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% 
-         width20% width20% width20% width20% width20% width20% width20% width20% width20% width20% width20%
-        
-      </div>
+         <div class="b">width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
+            width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px 
+         </div>
 
-      <div class="b">width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
-         width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
-         width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
-         width 200px width 200px width 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200pxwidth 200px
-      </div>
-
-      <div class="c"> content content content content content content content content content content content 
-         content content content content content content content content content content content 
-         content content content content content content content content content content content 
-         content content content content content content content content content content content 
-         content content content content content content content content content content content 
-      </div>
+         <div class="c"> content content content content content content content content content content content 
+            content content content content content content content content content content content 
+            content content content content content content content content content content content 
+            content content content content content content content content content content content 
+            content content content content content content content content content content content 
+         
+         <div class="clear"></div>
    </div>
 </body>
 </html>
