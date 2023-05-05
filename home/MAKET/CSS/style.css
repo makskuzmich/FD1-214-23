@@ -64,7 +64,7 @@ input{
    position: absolute;
    width: 760px;
    height: 50px;
-   left: 228px;
+   margin-left: 45px;
    top: 78px;
    border: 1px solid #E6E6E6;
    background: url(../img/search-icon.png) no-repeat 2% 50%;
@@ -183,6 +183,62 @@ h1{
    color: #414141;
 }
 
+
+/*Карточки товаров*/
+
+.container_item{
+   width: 1140px;
+   margin: 50px auto 0px;
+   overflow: hidden;
+}
+.list_item{
+   margin-left: -10px;
+   margin-right: -10px;
+}
+.list_item li{
+   float: left;
+   height: 380px;
+   width: 263px;
+   text-align: center;
+   margin: 0px 10px;
+}
+.heart{
+   float: right;
+}
+.div_item{
+   overflow: hidden;
+   margin-bottom: 38px;
+}
+.item_name{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   padding: 54px 0px 6px 20px;
+   text-align: left;
+}
+.item_name_small{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 13px;
+   padding: 0px 20px;
+   text-align: left;
+}
+.price{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   padding: 9px 20px;
+   text-align: left;
+}
+
+
+/*footer*/
 .footer{
    width: 1140px;
    margin: 10px auto;

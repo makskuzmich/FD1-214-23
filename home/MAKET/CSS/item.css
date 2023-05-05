@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+}
+.menu{
+    width: 1140px;
+    height: 126px;
+    margin: 0px auto;
+}
+#logo{
+    margin-top: 56px;
+    float: left;
+}
+.menu_info li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu_info{
+    margin: 0px 0px 51px 0px;
+    padding-top: 59px;
+    float: left;
+}
+.delivery{
+    float: right;
+}
+.icon{
+    float: right;
+    margin: 58px 0px 51px 0px;
+}
+.icon img{
+    margin-left: 30px;
+}
+#number{
+    display: inline-block;
+    margin: 59px 30px 51px 0px;
+    background: url(../img/phone1.png) no-repeat;
+    padding: 1px 0px 1px 20px;
+    color: black;
+}
+.delivery span{
+    background: url(../img/delivery1.png) no-repeat;
+    padding: 1px 0px 1px 35px;
+}
+input{
+    width: 230px;
+    height: 40px;
+    margin: 46px 0px 0px 20px;
+    background: url(../img/search-icon.png) no-repeat 2% 50%;
+    padding-left: 20px;
+}
+form{
+    display: inline;
+}
