@@ -1,3 +1,4 @@
+/*First DIV*/
 a{
     text-decoration: none;
 }
@@ -21,6 +22,10 @@ a{
 }
 .delivery{
     float: right;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
 }
 .icon{
     float: right;
@@ -50,4 +55,499 @@ input{
 form{
     display: inline;
 }
-/*r*/
+
+/*Second div*/
+
+.catalog{
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+    padding: 23px 0px 24px 0px;
+ }
+ .catalog ul li {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+ }
+ #kitchen{
+    background: url(../img/kitchen-icon.png) no-repeat;
+    padding: 4px 0px 4px 35px;
+ }
+ 
+ #badroom{
+    background: url(../img/bedroom-icon.png) no-repeat;
+    padding: 4px 0px 4px 35px;
+ }
+ #living{
+    text-decoration: none;
+    color: #414141;
+    background: url(../img/livingroom-icon.png) no-repeat;
+    padding: 4px 0px 4px 35px;
+ }
+ #hallway{
+    background: url(../img/closet-icon.png) no-repeat;
+    padding: 4px 0px 4px 35px;
+ }
+ #office{
+    background: url(../img/office-icon.png) no-repeat;
+    padding: 4px 0px 4px 35px;
+ }
+ #children{
+    background: url(../img/childrensroom-icon.png) no-repeat;
+    padding: 4px 0px 4px 35px;
+ }
+ #promotion a{
+    color: #D74444; 
+ }
+ .catalog a{
+    text-decoration: none;
+    color: #414141;
+ }
+
+ #ssilka{
+    margin: 30px auto 20px;
+    width: 1140px;
+ }
+ #ssilka a{
+    padding-right:10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #969696;
+ }
+ #ssilka a span{
+    display: inline-block;
+    padding-left: 10px;
+ }
+
+ /*Thirt div*/
+ .kartochka{
+    margin: 0px auto;
+    width: 1140px;
+ }
+ .photo{
+    float: left;
+    Width: 653px;
+    Height: 354px;
+ }
+ #sofa{
+    padding: 60px 27px 45px;
+ }
+ .info_sofa{
+    Width: 456px;
+    Height: 354px;
+    float: right;
+ }
+ #sofa_name{
+    margin: 15px 0px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #414141;
+ }
+ #divani{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #686868;
+    margin: 10px 0px 15px;
+ }
+ #price p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #414141;
+    float: left;
+    padding-top: 4px;
+    margin-right: 31px;
+ }
+ #buy p{
+    display: inline-block;
+    background: #245462;
+    float: left;
+    padding: 12px 50px 13px;
+    margin-right: 20px;
+    color: white;
+ }
+
+#invite{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #414141;
+    padding-top: 10px;
+    background: url(../img_item/списокжелаемого.png) no-repeat;
+}
+#invite img{
+    float: left;
+    margin-right: 11px;
+}
+#invite p{
+    padding-top: 3px;
+}
+.data_item_name li{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #414141;
+    margin: 18px 45px 10px 0px;
+}
+.yellow_square{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-color: #FFC107;
+}
+.yellow_square img{
+    margin: 12px 25px 0px 42px;
+}
+.white_square{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 47px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+    background-color: #decece;
+}
+.white_square img{
+    margin: 12px 25px 0px 42px;
+}
+.rectangle{
+    margin: 0px 0px 0px 195px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+    width: 157px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+.description{
+    margin: 20px 0px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #414141;
+}
+.description_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #686868;
+}
+.catalog_container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.catalog_photo{
+    width: 653px;
+    height: 90px;
+}
+#left{
+    float: left;
+    margin-top: 39px;
+}
+#right{
+    float: right;
+    margin-top: 39px;
+}
+.card_photo{
+    width: 120px;
+    height: 90px;
+    float: left;
+    margin: 0px 9px;
+    text-align: center;
+    padding: 10px;
+}
+.characteristics{
+    width: 1140px;
+    margin: 50px auto 40px;
+}
+.characteristics_item li{
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #686868;
+}
+.characteristics_data{
+    width: 1140px;
+    margin: 0px auto;
+    height: 250px;
+}
+.characteristics_data_left{
+    float: left;
+  
+}
+#border1{
+    border: 1px dashed #686868;
+    width: 226px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+#border2{
+    border: 1px dashed #686868;
+    width: 168px;
+    display: inline-block;
+    margin: 0px 10px;
+}#border3{
+    border: 1px dashed #686868;
+    width: 152px;
+    display: inline-block;
+    margin: 0px 10px;
+}#border4{
+    border: 1px dashed #686868;
+    width: 229px;
+    display: inline-block;
+    margin: 0px 10px;
+}#border5{
+    border: 1px dashed #686868;
+    width: 208px;
+    display: inline-block;
+    margin: 0px 10px;
+}#border6{
+    border: 1px dashed #686868;
+    width: 166px;
+    display: inline-block;
+    margin: 0px 10px;
+}#border7{
+    border: 1px dashed #686868;
+    width: 134px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.characteristics_data_left_item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #686868;
+    margin-bottom: 23px;
+}
+.characteristics_data_right{
+    float: right;
+    text-align: justify;
+}
+#border01{
+    border: 1px dashed #686868;
+    width: 174px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+#border02{
+    border: 1px dashed #686868;
+    width: 104px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+#border03{
+    border: 1px dashed #686868;
+    width: 172px;
+    display: inline-block;
+    margin: 0px 10px;
+}#border04{
+    border: 1px dashed #686868;
+    width: 117px;
+    display: inline-block;
+    margin: 0px 10px;
+}#border05{
+    border: 1px dashed #686868;
+    width: 156px;
+    display: inline-block;
+    margin: 0px 10px;
+}#border06{
+    border: 1px dashed #686868;
+    width: 173px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.sell{
+   width: 1140px;
+   margin: 90px auto 30px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   color: #414141;
+}
+
+
+/*Карточки товаров*/
+
+.container_item{
+   width: 1140px;
+   margin: 50px auto 0px;
+   overflow: hidden;
+}
+.list_item{
+   margin-left: -10px;
+   margin-right: -10px;
+}
+.list_item li{
+   float: left;
+   height: 380px;
+   width: 263px;
+   text-align: center;
+   margin: 0px 10px;
+}
+.heart{
+   float: right;
+}
+.div_item{
+   overflow: hidden;
+   margin-bottom: 38px;
+}
+.item_name{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   padding: 54px 0px 6px 20px;
+   text-align: left;
+}
+.item_name_small{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 13px;
+   padding: 0px 20px;
+   text-align: left;
+}
+.price{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   padding: 9px 20px;
+   text-align: left;
+}
+
+/*footer*/
+.footer{
+    width: 1140px;
+    margin: 10px auto;
+    height: 234px;
+ }
+ #nav{
+    float: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 50px;
+    color: #414141;
+ }
+ #nav2{
+    float: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 50px;
+    color: #414141;
+ }
+ #nav3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #414141;
+ }
+ .navi{
+    padding-top: 54px;
+    padding-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;  
+    
+ }
+ .footer_container span{
+    padding: 34px 30px 32px 0px; 
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #414141;
+ }
+ .footer_container{
+    width: 570px;
+    float: left;
+ }
+ .footer_container-right{
+    float: right;
+    text-align: right;
+ }
+ #LM{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;  
+    padding-top: 49px;
+ }
+ .index{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #414141;
+ }
+ #tel{
+    display: inline-block;
+    background: url(../img/phone1.png) no-repeat;
+    padding:1px 30px 1px 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #414141;
+ }
+ #inst{
+    display: inline-block;
+    background: url(../img/inst.png) no-repeat;
+    padding:3px 30px 3px 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #414141;
+ }
+ #mail{
+    display: inline-block;
+    background: url(../img/mail.png) no-repeat;
+    padding:1px 0px 1px 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #414141;
+ }
