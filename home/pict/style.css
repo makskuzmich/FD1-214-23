@@ -1,0 +1,19 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+h1, h2{
+   background-color: rgb(178, 150, 116);
+   color: rgb(15, 31, 16);
+   text-align: center;
+   font-size: 40px;
+}
+p{
+   background-color: rgb(113, 75, 20);
+   color: white;
+   font-size: 20px;
+   line-height: 30px;
+}
+body{
+   background: rgba(216, 107, 107, 0.516);
+}

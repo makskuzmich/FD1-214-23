@@ -1,0 +1,30 @@
+@media all and (max-width:530px){
+   .menu{
+      width: 100%;
+      float: none;
+      background-image: none;
+      background-color: chartreuse;
+   }
+   .img{
+      float: none;
+      display: inline-block;
+      padding-left: 130px;
+   }
+   
+   .container{
+      width: 100%;
+      padding: 0px;
+      margin-top: 30px;
+   }
+}
+@media all and (max-width:900px){
+   .container{
+      background-image: none;
+   }
+}
+@media all and (max-width:700px){
+   .header{
+      background: darkblue;
+      color: white;
+   }
+}
