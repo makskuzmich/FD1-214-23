@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://fe.it-academy.by/TestForm.php" method="GET">
+        <fieldset>
+            <input type="text" name="firstname" placeholder="Имя">
+            <hr>
+            <select name="city[]" size="5" multiple>
+                <option value="1" selected>minsk</option>
+                <option value="2">brest</option>
+                <option value="3" selected>gomel</option>
+                <option value="4">vitebsk</option>
+                <option value="5" selected>grodno</option>
+            </select>
+            <hr>
+            <textarea name="rasskaz"  cols="30" rows="10"></textarea> <br>
+            <hr>
+            <input type="radio" value="1" name="yes">da<br>
+            <input type="radio" value="2" name="no">no<br>
+            <input type="radio" value="3" name="eno"> eno<br>
+            <hr>
+            <input type="checkbox" name="a">
+            <input type="checkbox" name="b">
+            <input type="checkbox" name="c"><br>
+            <hr>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
