@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+<body>
+   <h1>Тег picture</h1>
+   <p>
+      Этот тег предназначен для помощи адаптива картинов для мобильной версии. <br>
+      Внутри содержится тег  "img" и теги "source". Количество тегов "source" зависит от задач. <br>
+      Писать медиа запросы можно прямо в атрибуте "Media" тега "source". <br>
+      Огромный плюс этого тега заключается в экономии ресурсов,он будет подгружать картинку необходимую для девайса. <br>
+      Причём подгружаться будет только та картинка,которая подходит под медиазапрос.
+   </p>
+   <h2>Пример</h2>
+   <picture>
+      <source srcset="img/images2.png" media="(max-width: 700px)">
+      <source srcset="img/images1.png" media="(max-width: 900px)">
+      <img src="img/images.png" alt="">
+   </picture>
+</body>
+</html>

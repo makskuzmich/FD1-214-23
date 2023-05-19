@@ -37,13 +37,22 @@
       a:first-of-type{
          text-decoration: none;
       }
+
+   @media print{
+      #info::before{
+         content: "ссылка ";
+      }
+      #info::after{
+         content:"("attr(href)")" ;
+      }
+   }
    </style>
 </head>
 <body>
    <p class="Firstname">Гарри Каспаров</p>
    <p class="birthday">Дата рождения: 13 апреля 1963 г.</p>
    <p class="win">Чемпион мира: 1985-1993</p>
-   <a href="https://chesspro.ru/statistic/kasparov.shtml">Информация</a>
+   <a href="https://chesspro.ru/statistic/kasparov.shtml" id="info">Информация</a>
    <p class="info">Первый матч за звание чемпиона мира по шахматам Гарри Каспаров играл против чемпиона мира 
       Анатолия Карпова. До этого они в разных официальных соревнованиях сыграли три партии, которые закончились 
       вничью. Для победы требовалось первым выиграть 6 партий. Такой регламент был введён в феврале 1977 года и 
