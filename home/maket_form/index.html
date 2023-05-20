@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      #name{
+         display: block;
+         width: -webkit-fill-available;
+         
+      }
+      .title{
+         width: 200px;
+         float: left;
+      }
+      #text{
+         width: 100%;
+      }
+      #push{
+         background-color: #7861bac2;
+         border: 3px solid black;
+         border-radius: 15px;
+         color: #fdcefc;
+         font-weight: 700;
+         font-size: 15px;
+      }
+      @media all and (max-width:585px){
+         .title{
+            float: none;
+            display: block;
+         }
+         #select{
+            width: 100%;
+         }
+      }
+      @media all and (max-width:380px){
+         .radio_mobile{
+            display: block;
+         }
+         #push{
+            display: block;
+            margin: 10px auto;
+         }
+      }
+   </style>
+</head>
+<body>
+
+   <p>Для публикации вашей статьи, заполните пожалуйста следующую форму:</p>
+   <form action="http://fe.it-academy.by/TestForm.php" method="get">
+      <span class="title">Название статьи:</span>
+      <input type="text" id="name" name="article">
+      <span class="title">Рубрика:</span>
+      <select name="heading" id="select">
+         <option value="1">Программирование</option>
+         <option value="2">Математика</option>
+         <option value="3">Физика</option>
+      </select> <br>
+      <span class="title">Публикация:</span> 
+      <span class="radio_mobile"><input type="radio" name="answer" value="1"><span>На сайте</span></span>
+      <span class="radio_mobile"><input type="radio" name="answer" value="2"><span>В журнале</span></span>
+      <span class="radio_mobile"><input type="radio" name="answer" value="3"><span>На сайте и в журнале</span> </span><br>
+      <span class="title">Разрешить комментарии:</span>
+      <input type="checkbox" name="chek"> <br>
+      <span class="title">Текст статьи:</span> <br>
+      <textarea name="text" id="text"></textarea>
+      <input type="submit" value="Опубликовать" id="push">
+   </form>
+   
+</body>
+</html>
