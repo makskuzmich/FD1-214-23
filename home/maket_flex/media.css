@@ -1,0 +1,32 @@
+@media all and (max-width:560px){
+   .content{
+      background: none;
+   }
+}
+@media all and (max-width:480px){
+   .header{
+      display: none;
+   }
+   .wrap{
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   .img{
+      float: none;
+   }
+   .menu{
+      background: none;
+   }
+   .menu>ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100vw;
+      justify-content: left;
+      list-style-type: none;
+      padding: 0;
+   }
+   ul>li{
+      margin-right: 20px;
+   }
+}
