@@ -98,6 +98,18 @@ header{
     top: 21px;
     left: 240px;
 }
+#button:hover{
+    background: rgb(143, 32, 160);
+    color: white;
+    border: 3px solid rgb(243, 239, 4);
+    cursor: pointer;
+}
+#start:hover{
+    background: rgb(143, 32, 160);
+    color: white;
+    border: 3px solid rgb(243, 239, 4);
+    cursor: pointer;
+}
 h1{
     font-size: 64px;
     color: white;
@@ -297,7 +309,16 @@ h1{
     font-weight: 400;
     margin-bottom: 32px;
 }
+#application:hover{
+    background: #0d009e;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
 .text_container{
     text-align: center;
     padding-bottom: 32px;
+}
+.empty{
+    background: url(../img/image.png) no-repeat;
 }
