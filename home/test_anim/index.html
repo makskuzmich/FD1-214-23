@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+      @keyframes header{
+         from{background: red;color: antiquewhite;}
+         50%{background: rgb(153, 78, 163); color: chartreuse;}
+         to{background: rgb(202, 213, 115); color: darkorange;}
+      }
+      header{
+         height: 100px;
+         font-size: 30px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         animation: header 4s infinite;
+      }
+      main{
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+      }
+      .circle{
+         width: 200px;
+         height: 200px;
+         background: rgb(64, 247, 2);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 28px;
+      }
+      .tr{
+         width: 200px;
+         height: 200px;
+         background-color: deeppink;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 28px;
+      }
+      .a{
+         width: 200px;
+         height: 200px;
+         background-color: rgb(158, 10, 207);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 28px;
+      }
+      main:hover .circle{
+         border-radius: 50%;
+         transition: 2s;
+         background-image: linear-gradient(90deg,rgb(13, 0, 255),rgb(255, 242, 1));
+         color: lightgoldenrodyellow;
+      }
+      main:hover .tr{
+         border-radius: 10px;
+         transition: 1s;
+         background: yellow;
+         box-shadow: 0 0 20px red;
+         font-size: 30px;
+         color: gold;
+      }
+      main:hover .a{
+         border-radius: 20px;
+         box-shadow: 5px 5px 7px lightgray;
+         transition: 3s;
+         width: 150px;
+         height: 150px;
+         transform: translate(-50px,-50px) rotate(5deg);
+         color:bisque;
+      }
+   </style>
+</head>
+<body>
+
+   <header>Hello world!!!</header>
+   
+   <main>
+      <div class="circle">content</div>
+      <div class="tr">content</div>
+      <div class="a">content</div>
+   </main>
+   
+   
+</body>
+</html>
