@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   
+   <script>
+      var firstname = prompt ('Your first name?');
+         var name = prompt ('Your name?');
+         var surname = prompt ('Your surname?');
+         var age = parseInt(prompt ('How old are you?'));
+         var newage = (age * 365);
+         var gender = confirm('is your gender male?');
+         var pension = confirm('are you retired?');
+
+         
+            if (pension === true)
+               pension = ('Да')
+            else
+               pension = ('Нет')
+               if (gender === true)
+                     gender = ('Мужчина')
+               else
+                     gender = ('Женщина')
+         
+
+      alert(('Ваше ФИО: ' + ' ' + (firstname) + ' ' + (name) + ' ' + (surname)) + '\n'
+      + ('Ваш возраст в годах:' + ' ' + (age)) + '\n'
+      + ('Ваш возраст в днях:' + ' ' + (newage)) + '\n'
+      + ('Через пять леть вам будет:' + ' ' + (age + 5)) + '\n'
+      + ('Ваш пол:' + ' ' + (gender)) + '\n'
+      + ('Вы на пенсии?' + ' ' + (pension)) + '\n');
+      
+   </script>
+
+
+</body>
+</html>
